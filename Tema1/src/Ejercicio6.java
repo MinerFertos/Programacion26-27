@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Ejercicio6 {
@@ -5,7 +6,8 @@ public class Ejercicio6 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce un carácter");
 
-        char letra = sc.next().charAt(0);
+        char letra = sc.next().toUpperCase(Locale.ROOT).charAt(0);
+
 
 
     }

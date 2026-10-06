@@ -16,7 +16,8 @@ public class Ejercicio5 {
         System.out.println("Introduce un último número");
         int num4 = teclado.nextInt();
 
-        int media = ((num1+num2+num3+num4)/4); //simplemente crear variable media y dividir todos los num/Nºnumero en este caso 4
+        double media = ((num1+num2+num3+num4)/4.0); //simplemente crear variable double media y dividir todos los
+        // num/Nºnumero en este caso 4.0 por tener decimales ya que 1 1 1 y 0 no da 0.0 da 1 con algo
         System.out.println("El número es " + media ); //sout "" + media
 
         if (num1>media)

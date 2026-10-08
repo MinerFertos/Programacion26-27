@@ -28,12 +28,7 @@ public class Ejercicio6 {
                 System.out.println("No es una vocal");
             break;
 
-
-
         }
-
-
-
         }
 
     }

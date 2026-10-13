@@ -1,4 +1,4 @@
-//Escribe un programa que solicite una contraseña válida usando un bucle do-while.
+package Relacion1_1;//Escribe un programa que solicite una contraseña válida usando un bucle do-while.
 
 import java.util.Scanner;
 

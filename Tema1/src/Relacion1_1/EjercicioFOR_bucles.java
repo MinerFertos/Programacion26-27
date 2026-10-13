@@ -1,4 +1,4 @@
-//Sumar los 10 primeros números usando el bucle for.
+package Relacion1_1;//Sumar los 10 primeros números usando el bucle for.
 
 public class EjercicioFOR_bucles {
     static void main(String[] args) {

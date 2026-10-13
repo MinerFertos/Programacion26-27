@@ -1,5 +1,6 @@
+package Relacion1_1;
+
 import java.util.Locale;
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Ejercicio6 {

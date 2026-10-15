@@ -15,11 +15,19 @@ public class Ejercicio8 {
         int numeros;
         boolean afirmacion = true;
         String pregunta;
+        int numeroMenor = 0;
+        int contador = 0;
 
         do {
             System.out.println("Introduce un número");
             numeros = sc.nextInt();
 
+            if (contador == 0){
+                numeroMenor = numeros;
+            }
+            if (numeros<numeroMenor){
+                numeroMenor = numeros;
+            }
 
             System.out.println("Desea introducir otro número S/N");
             pregunta = sc.nextLine();
@@ -28,14 +36,18 @@ public class Ejercicio8 {
             if (pregunta .equals("S")){
 
                 afirmacion = true;
+
             }
             else if (pregunta .equals("N")){
                 afirmacion = false;
+
             }
 
+                       contador++;
 
         } while (afirmacion);
-
+        System.out.println("El número menor es " + numeroMenor);
         System.out.println("Adios");
     }
 }
+

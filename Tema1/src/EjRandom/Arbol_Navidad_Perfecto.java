@@ -2,7 +2,7 @@ package EjRandom;
 
 import java.util.Scanner;
 
-public class Arbol_Navidad2 {
+public class Arbol_Navidad_Perfecto {
     static void main(String[] args) {
         System.out.println("Introduce un número para saber la altura");
         Scanner sc = new Scanner(System.in);

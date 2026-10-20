@@ -1,15 +1,15 @@
-package Relacion1_2;
+package Relacion1_4;
 
+import java.util.Locale;
 import java.util.Scanner;
 
-public class EjRandom1 {
+public class Ej3_4 {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int num1;
-        int invertir;
+        char letra = 'I';
 
 
     }
+    }
 
-}
